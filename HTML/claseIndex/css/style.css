@@ -1,0 +1,29 @@
+.titulo {
+    font-size: 50px;
+    color: royalblue;
+    font-family: Helvetica;
+}
+
+.subtitulo {
+    font-size: 25px;
+    color: seagreen;
+    font-family: Helvetica;
+}
+
+li {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: slateblue 1px solid;
+}
+
+footer {
+    font-family: fantasy;
+    color: slategray;
+    font-size: 15px;
+}
