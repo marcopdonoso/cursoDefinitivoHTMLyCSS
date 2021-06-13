@@ -1,28 +1,50 @@
+body {
+    color: white;
+    background-image: url('../pics/tinified/fondo.png');
+    background-position:center;
+}
+
 .titulo {
-    font-size: 50px;
-    color: royalblue;
+    padding-top: 100px;
+    text-align: center;
     font-family: Helvetica;
 }
 
 .subtitulo {
-    font-size: 25px;
-    color: seagreen;
+    text-align: center;
     font-family: Helvetica;
 }
 
+ul {
+    text-align: center;
+    display: inline-flex;
+    list-style: none;
+}
+
 li {
-    font-size: 20px;
+    font-size: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+figure {
+    width: 80px;
+    height: 80px;
+    border: grey 1px solid;
+}
+
 img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border: slateblue 1px solid;
+    
 }
 
 footer {
+    text-align: center;
     font-family: fantasy;
     color: slategray;
     font-size: 15px;
