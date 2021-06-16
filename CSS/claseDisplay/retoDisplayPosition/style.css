@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    background-color: rgb(218, 210, 243);
+}
+.header__logo {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+    position: relative;
+    left: 62%;
+    color: white;
+    bottom: 5px;
+}
+.header__nav-bar__item {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 5px;
+}
+.main__side-bar {
+    display: inline-block;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(235, 142, 157);
+}
+.main__side-bar__box {
+    width: 90%;
+    height: 100px;
+    margin: 10px auto;
+    background-color: rgb(234, 204, 241);
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+}
+.main__main-block {
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 70%;
+    height: 500px;
+    background-color: rgb(138, 133, 155);
+    position: absolute;
+}
+.footer {
+    background-color: yellow;
+    height: 50px;
+}
+.footer__company-info {
+    display: inline-block;
+    width: 49.8%;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 2rem;
+}
